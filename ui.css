@@ -148,6 +148,7 @@ a {
 }
 
 span.stub {
+  background-color: var(--ui-gr);
   padding: .25rem;
   border-radius: .25rem;
   font-weight: bold;
