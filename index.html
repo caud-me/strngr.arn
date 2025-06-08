@@ -5,18 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>@strngr.arn</title>
   <link rel="stylesheet" href="ui.css">
+  <link rel="stylesheet" href="ui-bg-asset.css">
 </head>
-<body>
-  <main>
-    <section class="hero">
+<body data-level="main">
+  <main role="main" aria-label="main page">
+    <section>
       <div class="section-wrapper">
         <h1>hi,<br>@strngr.arn here.</h1>
-        <div class="link">
-          <a href="work.html">work ↗</a>
-          <a href="projects.html">projects ↗</a>
-        </div>
-        <p>Site is still in progress, you may encounter layout issues on your device!</p>
-        <p><small>Scroll for details...</small></p>
       </div>
     </section>
 
@@ -74,13 +69,15 @@
       </div>
     </section>
 
-
-    <section class="content-centered bg-asset" data-bg-asset="1">
+    <section class="bg-asset" data-bg-asset="1">
       <div class="section-wrapper">
         <h2>say hi</h2>
         <p>you can DM me on <a href="https://instagram.com/strngr.arn" target="_blank" rel="noopener">@strngr.arn</a> or email if that’s more your thing. i’m always open to chill collabs, convos, or just saying hey.</p>
       </div>
     </section>
   </main>
+
+  <script type="module" src="render-nav.js"></script>
+  <script type="module" src="render-footer.js"></script>
 </body>
 </html>
