@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const head = document.querySelector('head');
 
   // Load footer CSS dynamically
-  const css = `<link rel="stylesheet" href="ui-footer.css">`;
+  const css = `<link rel="stylesheet" href="/strngr.arn/ui-footer.css">`;
   head.insertAdjacentHTML('beforeend', css);
 
   const path = window.location.pathname.split('/').filter(Boolean);
 
   // Start with homepage crumb (adjust href as needed)
-  const crumbs = [{ name: '@strngr.arn', href: '/' }];
+  const crumbs = [{ name: '@strngr.arn', href: '/strngr.arn/' }];
 
   // Build crumbs from path segments
   path.forEach((part, i) => {
@@ -39,10 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // Build main footer nav links (adjust hrefs to your site structure)
   const mainNavLinks = `
     <ul>
-      <li><a href="music/">music</a></li>
-      <li><a href="projects/">projects</a></li>
-      <li><a href="work/">work</a></li>
-      <li><a href="wireframe/">wireframe</a></li>
+      <li><a href="music">music</a></li>
+      <li><a href="projects">projects</a></li>
+      <li><a href="work">work</a></li>
+      <li><a href="wireframe">wireframe</a></li>
     </ul>
   `;
 
