@@ -13,10 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="parent-wrapper">
         <a href="/strngr.arn/">@strngr.arn</a>
         <ul>
-          <li><a href="music">music</a></li>
-          <li><a href="projects">projects</a></li>
-          <li><a href="work">work</a></li>
-          <li><a href="wireframe">wireframe</a></li>
+          <li><a href="/strngr.arn/music">music</a></li>
+          <li><a href="/strngr.arn/projects">projects</a></li>
+          <li><a href="/strngr.arn/work">work</a></li>
+          <li><a href="/strngr.arn/wireframe">wireframe</a></li>
         </ul>
       </div>
     </nav>
