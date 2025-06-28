@@ -1,0 +1,63 @@
+nav[aria-label="primary navigation"], nav[aria-label="secondary navigation"] {
+  border-bottom: solid 1px #80808010;
+  z-index: 10;
+}
+
+nav > .parent-wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav > .parent-wrapper > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav > .parent-wrapper > a {
+  text-decoration: none;
+  
+  font-size: .875rem;
+  border-radius: .25rem;
+}
+
+nav[aria-label="primary navigation"] > .parent-wrapper > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #808080;
+}
+
+nav > .parent-wrapper > ul > li {
+  display: block;
+}
+
+nav > .parent-wrapper > ul > li > a {
+  display: block;
+  text-decoration: none;
+  
+  font-size: .875rem;
+}
+
+nav > .parent-wrapper > ul > li > a:hover {
+  text-decoration: underline;
+  text-decoration-color: #808080;
+}
+
+nav[aria-label="secondary navigation"] > .parent-wrapper > a {
+  font-weight: bold;
+  letter-spacing: -0.04em;
+  font-size: 1.5rem;
+}
+
+nav[aria-label="secondary navigation"] {
+  background-color: var(--ui-background);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
