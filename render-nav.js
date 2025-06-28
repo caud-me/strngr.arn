@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const primary_navigation = `
     <nav role="navigation" aria-label="primary navigation">
       <div class="parent-wrapper">
-        <a href="/">@</a>
+        <a href="/">@strngr.arn</a>
         <ul>
-          <li><a href="/music/">music</a></li>
-          <li><a href="/projects/">projects</a></li>
-          <li><a href="/work/">work</a></li>
-          <li><a href="/wireframe/">wireframe</a></li>
+          <li><a href="music/">music</a></li>
+          <li><a href="projects/">projects</a></li>
+          <li><a href="work/">work</a></li>
+          <li><a href="wireframe/">wireframe</a></li>
         </ul>
       </div>
     </nav>

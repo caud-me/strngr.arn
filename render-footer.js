@@ -39,10 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // Build main footer nav links (adjust hrefs to your site structure)
   const mainNavLinks = `
     <ul>
-      <li><a href="/music/">music</a></li>
-      <li><a href="/projects/">projects</a></li>
-      <li><a href="/work/">work</a></li>
-      <li><a href="/wireframe/">wireframe</a></li>
+      <li><a href="music/">music</a></li>
+      <li><a href="projects/">projects</a></li>
+      <li><a href="work/">work</a></li>
+      <li><a href="wireframe/">wireframe</a></li>
     </ul>
   `;
 
