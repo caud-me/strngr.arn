@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log('[debug] page level:', status)
 
   // Load nav CSS
-  const css = `<link rel="stylesheet" href="/ui-nav.css">`;
+  const css = `<link rel="stylesheet" href="ui-nav.css">`;
   document.head.insertAdjacentHTML('beforeend', css);
 
   // Global navigation
