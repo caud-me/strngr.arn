@@ -1,26 +1,26 @@
 .bg-asset[data-bg-asset="1"] {
   background-image: url(re/asset_1.jpg);
-  color: var(--ui-background);
+
 }
 
 .bg-asset[data-bg-asset="2"] {
   background-image: url(re/asset_2.jpg);
-  color: var(--ui-background);
+
 }
 
 .bg-asset[data-bg-asset="3"] {
   background-image: url(re/asset_3.jpg);
-  color: var(--ui-background);
+
 }
 
 .bg-asset[data-bg-asset="4"] {
   background-image: url(re/asset_4.jpg);
-  color: var(--ui-background);
+
 }
 
 .bg-asset[data-bg-asset="5"] {
   background-image: url(re/asset_5.jfif);
-  color: var(--ui-background);
+
 }
 
 .bg-asset[data-bg-asset="6"] {
@@ -34,7 +34,7 @@
 
 .bg-asset[data-bg-asset="8"] {
   background-image: url(re/asset_8.jpg);
-  color: var(--ui-background);
+
 }
 
 .bg-asset[data-bg-asset="9"] {
@@ -44,5 +44,5 @@
 
 .bg-asset[data-bg-asset="10"] {
   background-image: url(re/asset_10.jfif);
-  color: var(--ui-background);
+
 }

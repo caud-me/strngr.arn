@@ -1,3 +1,11 @@
+nav * {
+  font-family: "rsms", serif;
+}
+
+nav a {
+  color: var(--ui-content);
+}
+
 nav[aria-label="primary navigation"], nav[aria-label="secondary navigation"] {
   border-bottom: solid 1px #80808010;
   z-index: 10;
@@ -23,7 +31,6 @@ nav > .parent-wrapper > ul {
 
 nav > .parent-wrapper > a {
   text-decoration: none;
-  
   font-size: .875rem;
   border-radius: .25rem;
 }

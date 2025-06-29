@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </ol>
         </nav>
         ${mainNavLinks}
-        <small>site version 1.3</small>
+        <small>site version 1.8</small>
       </div>
     </footer>
   `;
