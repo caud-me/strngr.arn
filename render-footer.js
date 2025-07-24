@@ -8,8 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const path = window.location.pathname.split('/').filter(Boolean);
 
   // Start with homepage crumb (adjust href as needed)
-  const crumbs = [{ name: '@strngr.arn', href: '/strngr.arn/' }];
+  // const crumbs = [{ name: '@strngr.arn', href: '/strngr.arn/' }];
 
+  const crumbs = [];
   // Build crumbs from path segments
   path.forEach((part, i) => {
     // Build href up to this part
