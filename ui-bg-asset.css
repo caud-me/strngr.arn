@@ -46,3 +46,15 @@
   background-image: url(re/asset_10.jfif);
 
 }
+
+.bg-asset[data-bg-asset="a1"] {
+  background-image: url(re/as-1.jpg);
+}
+
+.bg-asset[data-bg-asset="a2"] {
+  background-image: url(re/as-2.jpg);
+}
+
+.bg-asset[data-bg-asset="a3"] {
+  background-image: url(re/as-3.jpg);
+}

@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <li><a href="/strngr.arn/projects">projects</a></li>
           <li><a href="/strngr.arn/work">work</a></li>
           <li><a href="/strngr.arn/wireframe">wireframe</a></li>
+          <li><a href="/strngr.arn/wallpapers">wallpapers</a></li>
         </ul>
       </div>
     </nav>
